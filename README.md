@@ -1,4 +1,4 @@
-oulib_bootstrap
+oulib_masterplan
 ===============
 
-OU Libraries subtheme from the Bootstrap Drupal 7 theme.
+OU masterplan subtheme from the Bootstrap Drupal 7 theme.
