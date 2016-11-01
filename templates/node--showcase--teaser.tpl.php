@@ -88,8 +88,12 @@
 	</div>
 		<div class="col-md-9 col-sm-9"> <h2><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2> 
 			<?php print render($content['field_banner_caption']); ?>
-			<p><?php print render($content['field_url']); ?>
 			
+			<!-- Check to see if URL field is empty and hide -->
+			<?php if (!empty($content['field_url']['0']['#element']['url'])) { ?>
+				<p><?php print render($content['field_url']); ?></p>
+				<?php
+			} ?>
 			
 			<!-- Check to see if feild is empty -->
 			<?php if (!empty($content['field_facebook']['0']['#element']['url'])) { ?>
