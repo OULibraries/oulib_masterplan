@@ -97,15 +97,8 @@
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-7 col-sm-12 col-xs-12">
+		<div class="col-md-12">
 			<?php print render($page['logo']); ?>
-		</div>
-	<?php endif; ?>
-	
-
-	<?php if (!empty($page['logo_two'])): ?>
-		<div class="col-md-5 col-sm-12 col-xs-12">
-			<?php print render($page['logo_two']); ?>	
 		</div>
 	<?php endif; ?>
 
@@ -116,7 +109,7 @@
 
 <div class="carousel_inner hidden-xs">
     <?php print render($page['header']); ?>
-  </div> <!-- /#Main Carousel -->
+  </div> <!-- /#Main Banner -->
 
 <!-- Menu -->
 <div class="menu">
