@@ -240,6 +240,8 @@
 
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
 							
+							<li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries">Job Opportunities</a></li>
+							
 
                         </ul>
 
