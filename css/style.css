@@ -856,6 +856,14 @@ img.letter{
 }
 }
 
+.navbar-brand{
+	font-size: 1.20em;
+	color: #fff;
+	background-color: #2a2a2a;
+	border-left: 8px solid #1c1c1c;
+	border-right: 8px solid #1c1c1c;
+}
+
 
 
 
