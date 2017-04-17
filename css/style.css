@@ -846,14 +846,19 @@ img.letter{
 /*Centering of navbar*/
 @media (min-width: 768px) {
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 
 .navbar-brand{
@@ -862,6 +867,7 @@ img.letter{
 	background-color: #2a2a2a;
 	border-left: 8px solid #1c1c1c;
 	border-right: 8px solid #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 
 
