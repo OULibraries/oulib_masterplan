@@ -26,6 +26,7 @@ regions[logo]			= 'Library Logo'
 regions[login]			= 'Login'
 regions[askus]			= 'Ask Us'
 regions[menu]			= 'Menu'
+regions[site-name]			= 'Site Name'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets

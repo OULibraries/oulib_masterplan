@@ -843,6 +843,11 @@ img.letter{
     color: #428bca;
 }
 
+
+.region-site-name {
+	margin:0px 50px 0px 30px;
+}
+
 /*Centering of navbar*/
 @media (min-width: 768px) {
 .navbar .navbar-nav {

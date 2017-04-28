@@ -125,7 +125,10 @@
         <span class="icon-bar"></span>
       </button>
 	  
-	   <a class="navbar-brand" href="/">VISION</a>
+			<?php if (!empty($page['site-name'])): ?>
+                <?php print render($page['site-name']); ?>
+            <?php endif; ?>
+	   
       
     </div>
 
