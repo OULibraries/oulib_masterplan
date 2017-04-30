@@ -97,15 +97,8 @@
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-7 col-sm-12 col-xs-12">
+		<div class="col-md-12">
 			<?php print render($page['logo']); ?>
-		</div>
-	<?php endif; ?>
-	
-
-	<?php if (!empty($page['logo_two'])): ?>
-		<div class="col-md-5 col-sm-12 col-xs-12">
-			<?php print render($page['logo_two']); ?>	
 		</div>
 	<?php endif; ?>
 
@@ -116,7 +109,7 @@
 
 <div class="carousel_inner hidden-xs">
     <?php print render($page['header']); ?>
-  </div> <!-- /#Main Carousel -->
+  </div> <!-- /#Main Banner -->
 
 <!-- Menu -->
 <div class="menu">
@@ -131,6 +124,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+	  
+			<?php if (!empty($page['site-name'])): ?>
+                <?php print render($page['site-name']); ?>
+            <?php endif; ?>
+	   
       
     </div>
 
@@ -223,7 +221,7 @@
 
                 <div class="col-md-3" style="padding-bottom: 30px;">
 
-                    <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
+                    <img src="/sites/all/themes/oulib_masterplan/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
 
                     <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
@@ -246,6 +244,8 @@
                             <li><a href="/aboutsite" title="About This Site">About This Site</a></li>
 
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
+							
+							<li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries">Job Opportunities</a></li>
 							
 
                         </ul>
@@ -280,7 +280,7 @@
 
                         <ul>
 
-                            <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/OULibraries" class="facebook" title="facebook" target="_blank"></a></li>
 
                             <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
@@ -293,10 +293,6 @@
                     </div>
 
                 </div>
-				
-				<div class="col-md-2">
-				<div class="anniversary-logo"><a href="http://www.ou.edu/liveon.html" target="_blank"><img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/125_Years_Campaign_Logo_Final_white_small.png" target="_blank" alt="125 anniversary logo"></a></div>
-				</div>
 
             </div>
 

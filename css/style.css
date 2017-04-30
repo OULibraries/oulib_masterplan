@@ -1,5 +1,5 @@
   /* 
-   Stylesheet for OU Lib Master Plan //
+   Stylesheet for OU Lib Masterplan (Vision) //
   
    Table of Contents
    - - - - - - - - -
@@ -14,7 +14,6 @@
    Partners
    Publications
    Library Logo
-   Library Logo 2 ('New Horizon' title)
    Navigation Bar
    Menus
    Pane Styles
@@ -50,7 +49,6 @@ h1.page-header {
 	margin-top: 40px;
 	margin-bottom: 20px;
 	color: 282828;
-	font-family: 'Lora';
 	font-style: italic;
 	font-weight: bold;
 	font-size: 3em;
@@ -74,7 +72,6 @@ h1.page-header {
 
 a {
     color: #2378aa;
-	font-family: 'Lora'; 
     text-decoration: none;
 	font-weight: bold;
 }
@@ -120,7 +117,7 @@ img{
 	border-radius: 15px;
 	color: #fff;
 	padding: 7px;
-	font-family: Verdana;
+	font-family: 'Droid Sans';
 	font-style: normal;
 	letter-spacing: 2px;
 	font-size: .85em;
@@ -144,14 +141,14 @@ img{
 	padding-bottom: 2%;
 	border-top: 7px solid #1f1f1f;
     width: 100%;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 	margin-top:0;
 }
 
 .footer a{
     color: #ececec !important;
     text-decoration: none;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 	font-size: .90em;
 }
 
@@ -168,13 +165,6 @@ img{
 .footer img{
 	float: left;
 	padding-right: 1em;
-}
-
-@media (max-width: 750px) {
-.anniversary-logo img {
-	padding-top: 25px;
-	padding-bottom: 10px;
-  }
 }
 
 
@@ -248,148 +238,18 @@ img{
  * Main Carousel
  */
  
-.carousel-inner{
-	margin: 0 auto;
-	background-color: #bebebe;
-	max-width: 1000px;
+.carousel-inner     {
+	border:0px solid #000000;
+	width: 100%;
 }
 
-#owl-carousel-block1{
-	padding: 15px;
-	background-color: #bebebe;
-}
-
-.region-header{
-	background-color: #bebebe;
-}
-
-#views-bootstrap-carousel-1{
-	padding: 15px 20px 15px 20px;
-	background-color: #bebebe;
-	font-size: 1em;
-}
-
-.carousel-control {
-	background-color: transparent;
-	font-size: 50px;
-}
-.carousel-control.left {
-	background-color: transparent;
-  
-}
-.carousel-control.right {
-	background-color: transparent;
-}
-
-.carousel-control:hover,
-.carousel-control:focus {
-	background-color: transparent;
-}
-
-/* Removes the background gradient effect for the controls */
-.carousel-control.left, .carousel-control.right{ 
-	background: none !important; 
-	filter: progid:none !important; 
-}
-
-.carousel-inner > .item {
- -webkit-transition: all 1s ease-in-out;
-       -o-transition: all 1s ease-in-out;
-          transition: all 1s ease-in-out;
-}
-
-.banner{
-	width: 80%;
-	margin: 0 auto;
-	background-color: #bebebe;
-}
-
-@media (max-width: 1125px) {
-.banner {
-	margin: 0 auto;
-	display: block;
-	float: none;
-	padding: 40px;
-  }
-}
-
-@media (max-width: 850px) {
-.banner {
-	display: none;
-  }
-}
-
-.banner_image img{
+.carousel-inner img{
 	height: auto;
-	border-radius: 50%;
-	border: 7px solid #fff;
-	max-width: 30%; 
-	margin-right: 140px; 
-	float: right;
+    max-width: 100%;
 }
 
-@media (max-width: 1135px) {
-.banner_image img {
-	margin: 0 auto;
-	display: block;
-	float: none;
-	max-width: 70%;
-  }
-}
 
-.banner_title{
-	font-size: 1.4em;
-	font-family: 'Lora';
-	font-style: italic;
-	font-weight: bold;
-	color: #fff;
-	display: inline;
-	margin-left: 13%;
-	padding: 25px;
-}
 
-@media (max-width: 1125px) {
-.banner_title {
-	display: block;
-	float: none;
-	font-size: 1.2em;
-	max-width: 80%;
-  }
-}
-
-.banner_caption{
-	font-size: 1.3em;
-	color: #fff;
-	font-family: 'Lora';
-	font-style: italic;
-	padding: 25px;
-	margin-left: 13%;
-	max-width: 40%; 
-	bottom: auto !important; 
-	top: 0 !important;
-}
-
-.banner_caption a{
-	color: #fff;
-	font-weight: normal;
-	text-decoration: none;
-}
-
-.banner_caption a:hover{
-	color: #fff;
-	text-decoration: none;
-}
-
-@media (max-width: 1125px) {
-.banner_caption {
-	margin: 0 auto;
-	max-width: 80%;
-	display: block;
-	float: none;
-	font-size: 1.1em;
-	padding: 50px;
-  }
-}
 
 /**Fade Effect*/
 
@@ -421,7 +281,7 @@ img{
 
 .homepage_intro{
 	background-color: #e9e9e9;
-	padding: 0 18px 18px 18px;
+	padding: 18px;
 	border-radius: 5px;
 	line-height: 1.5em;
 }
@@ -437,7 +297,7 @@ img{
 	position: relative;
 	display: inline;
 	padding: 5px;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 .pane-initiatives{
@@ -454,7 +314,7 @@ img{
 	background-color: #fff;
 	padding: 10px;
 	box-shadow: 2px 2px 4px #eaeaea;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 	font-weight: 600;
 }
 
@@ -468,7 +328,7 @@ img{
 .pane-menu-menu-initiatives li{
 	padding-left: 1em;
 	font-weight: 600;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 .pane-menu-menu-initiatives li:before{
@@ -483,12 +343,12 @@ img{
 
 .pane-menu-menu-initiatives a{
 	font-weight: 600;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 .pane-menu-menu-initiatives ul.menu.nav{
 	font-weight: 600;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 .pane-1 h2.pane-title{
@@ -524,17 +384,6 @@ img{
 	width: 0;
 	height: 0;
 }
-	
-/* pennant detail 
-.ribbon h2.pane-title:before {
-	left: auto;
-	right: -2px;
-	top: 0px;
-	border-width: 20px 10px;
-	border-style: solid;
-	border-color: transparent #fff transparent transparent;
-}
-*/
 
 /* wrap */
 .ribbon h2.pane-title:after {
@@ -834,13 +683,13 @@ img.letter{
 	border-radius: 5px;
 	padding: 5px;
 	margin-top: 5px;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 .publication_pdf a{
 	border-radius: 5px;
 	padding: 5px;
-	font-family: 'Open Sans';
+	font-family: 'Droid Sans';
 }
 
 
@@ -858,19 +707,6 @@ img.letter{
 
 
 
-
- /**
- * Library Logo 2 ('New Horizon' title)
- */
- 
-.region-logo-two img{
-	height: auto;
-    max-width: 100%;
-	margin: 0 auto;
-}
-
-
-
  
  /**
  * Navigation Bar
@@ -881,7 +717,6 @@ img.letter{
 	font-size: 1.3em;
 	font-family: 'Lora';
 	font-weight: bold;
-	text-transform: uppercase;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
@@ -1008,17 +843,48 @@ img.letter{
     color: #428bca;
 }
 
+
+.region-site-name {
+	margin:0px 50px 0px 30px;
+}
+
 /*Centering of navbar*/
 @media (min-width: 768px) {
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.navbar-brand{
+	font-size: 1.20em;
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 
@@ -1154,10 +1020,6 @@ h3 {
 	margin:0px;
 	padding:0px;
 }
-
-
-
-
 
 
 

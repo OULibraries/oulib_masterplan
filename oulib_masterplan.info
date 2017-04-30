@@ -8,7 +8,7 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[header]         = 'Main Carousel'
+regions[header]         = 'Main Banner'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
@@ -23,10 +23,10 @@ regions[libfooter_first]		= 'Library Footer First'
 regions[libfooter_second]		= 'Library Footer Second'
 regions[libfooter_third]		= 'Library Footer Third'
 regions[logo]			= 'Library Logo'
-regions[logo_two]		= 'Library Logo 2'
 regions[login]			= 'Login'
 regions[askus]			= 'Ask Us'
 regions[menu]			= 'Menu'
+regions[site-name]			= 'Site Name'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
