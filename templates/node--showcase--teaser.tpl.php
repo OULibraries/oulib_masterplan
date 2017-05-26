@@ -91,19 +91,19 @@
 			
 			<!-- Check to see if URL field is empty and hide -->
 			<?php if (!empty($content['field_url']['0']['#element']['url'])) { ?>
-				<p><?php print render($content['field_url']); ?></p>
+<!--				<p>--><?php //print render($content['field_url']); ?><!--</p>-->
 				<?php
 			} ?>
 			
 			<!-- Check to see if feild is empty -->
-			<?php if (!empty($content['field_facebook']['0']['#element']['url'])) { ?>
-				<a href="<?php print render($content['field_facebook']['0']['#element']['url']); ?>" target="_blank"><img src="https://libraries.ou.edu/sites/all/themes/oulib_bootstrap/img/sm_facebook.PNG"></a>
-			<?php } ?>
-			
-			<!-- Check to see if feild is empty -->
-			<?php if (!empty($content['field_twitter']['0']['#element']['url'])) { ?>			
-				<a href="<?php print render($content['field_twitter']['0']['#element']['url']); ?>" target="_blank"><img src="https://libraries.ou.edu/sites/all/themes/oulib_bootstrap/img/sm_twitter.PNG"></a>
-			<?php } ?>
+<!--			--><?php //if (!empty($content['field_facebook']['0']['#element']['url'])) { ?>
+<!--				<a href="--><?php //print render($content['field_facebook']['0']['#element']['url']); ?><!--" target="_blank"><img src="https://libraries.ou.edu/sites/all/themes/oulib_bootstrap/img/sm_facebook.PNG"></a>-->
+<!--			--><?php //} ?>
+<!--			-->
+<!--			<!-- Check to see if feild is empty -->
+<!--			--><?php //if (!empty($content['field_twitter']['0']['#element']['url'])) { ?><!--			-->
+<!--				<a href="--><?php //print render($content['field_twitter']['0']['#element']['url']); ?><!--" target="_blank"><img src="https://libraries.ou.edu/sites/all/themes/oulib_bootstrap/img/sm_twitter.PNG"></a>-->
+<!--			--><?php //} ?>
 			</p>
 		</div>
  </div>
@@ -117,6 +117,7 @@
       hide($content['links']);
 	  hide($content['field_twitter']);
 	  hide($content['field_facebook']);
+	  hide($content['field_url']);
       print render($content);
     ?>
   </div>
