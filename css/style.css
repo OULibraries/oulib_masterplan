@@ -20,6 +20,7 @@
    Headings
    Region-Libfooter
    Region-Top
+   Region-Discover-Login
    Region-Banner
    Webforms
    - - - - - - - - -
@@ -52,6 +53,10 @@ h1.page-header {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Lora';
 }
 
 .container-fluid {
@@ -524,6 +529,7 @@ img{
 
 
 
+
 /**
 * Banner
 */
@@ -539,6 +545,7 @@ img{
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
+
 
 
 
@@ -1019,6 +1026,49 @@ h3 {
 #top_regions .row {
 	margin:0px;
 	padding:0px;
+}
+
+
+
+
+/**
+ * Region-Discover-Login
+ */
+ 
+#cas-login-form button {
+	color: white;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+	margin-left: 11%;
+}
+
+#cas-login-form button:hover {
+	background-color: #286090;
+}
+
+.cas-login-area {
+	background-color: white;
+	border-radius: 0 0 6px 6px;
+}
+
+.region-login {
+	background-color: white;
+}
+
+.login-area {
+	margin: 15px 20px 0 15px;
+	border-radius: 6px;
+	background-color: white;
+	padding: 10px;
+}
+
+.region-login-left h2 {
+	 font-size: 1.5em;
+	letter-spacing: .15em;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	color: #841617;
+	text-align: center;
 }
 
 

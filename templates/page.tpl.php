@@ -89,18 +89,36 @@
 </div>
 
 
-
-
-
-
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-12">
+		<div class="col-md-7 col-sm-12 col-xs-12">
 			<?php print render($page['logo']); ?>
 		</div>
 	<?php endif; ?>
+	
+
+	 <div class="col-md-5 col-sm-12 col-xs-12">
+                <div class="login-area">
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-left'])): ?>
+                        <?php print render($page['login-left']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs">
+                      <?php if (!empty($page['login-dots'])): ?>
+                        <?php print render($page['login-dots']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-right'])): ?>
+                        <?php print render($page['login-right']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
 
 </div>
 </div>
