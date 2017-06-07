@@ -89,15 +89,11 @@
 </div>
 
 
-
-
-
-
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-12">
+		<div class="col-md-7 col-sm-12 col-xs-12">
 			<?php print render($page['logo']); ?>
 		</div>
 	<?php endif; ?>
