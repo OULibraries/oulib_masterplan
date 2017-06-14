@@ -721,17 +721,18 @@ img.letter{
 
 .navbar {
 	background-color:#3d3d3d;
-	font-size: 1.3em;
-	font-family: 'Lora';
+	font-size: 1.1em;
+	font-family: 'Droid Sans';
 	font-weight: bold;
+	text-transform: uppercase;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
 	border: 0px solid #3d3d3d;
-	box-shadow: 0px 5px 5px #d5d4d4; 
-	-moz-box-shadow: 0px 5px 5px #d5d4d4; 
-	-webkit-box-shadow: 0px 5px 5px #d5d4d4; 
-	-o-box-shadow: 0px 5px 5px #d5d4d4;
+	box-shadow: 0px 5px 5px #bbb; 
+	-moz-box-shadow: 0px 5px 5px #bbb; 
+	-webkit-box-shadow: 0px 5px 5px #bbb; 
+	-o-box-shadow: 0px 5px 5px #bbb;
 }
 
 .navbar ul.menu.nav{
@@ -773,6 +774,7 @@ img.letter{
 
 .navbar-default .navbar-nav>li>a {
     color: #ececec;
+	border-bottom: 10px solid #3d3d3d;
 	-webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -786,7 +788,8 @@ img.letter{
 	
 .navbar-default .navbar-nav>li>a:hover {
     color: #ececec;
-	background-color: #1f1f1f;
+	border-bottom: 10px solid #428bca;
+	background-color: #2a2a2a;
 	-webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -795,11 +798,13 @@ img.letter{
 
 .navbar-default .navbar-link:hover {
     color: #ececec;
+	border-bottom: 10px solid #428bca;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #ececec;
     background-color: #2a2a2a;
+	border-bottom: 10px solid #428bca;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
@@ -835,7 +840,6 @@ img.letter{
 	margin-left: auto;
 	margin-right: auto;
 	float: left;
-	margin-bottom: 10px;
 }
 
 .navbar-toggle .icon-bar {
@@ -855,11 +859,8 @@ img.letter{
 	margin:0px 50px 0px 30px;
 }
 
-/*Centering of navbar*/
 @media (min-width: 768px) {
 .navbar .navbar-nav {
-	display: inline-block;
-	float: none;
 	vertical-align: top;
 }
 
@@ -874,9 +875,12 @@ img.letter{
 }
 
 .navbar-brand{
+	font-family: 'Droid Sans';
 	font-size: 1.20em;
 	color: #fff;
 	background-color: #1c1c1c;
+	line-height: 20px;
+	padding: 15px 15px 40px 15px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	-webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
