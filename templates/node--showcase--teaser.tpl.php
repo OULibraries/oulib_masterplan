@@ -87,7 +87,7 @@
 		<div class="col-md-3 col-sm-3"><h2><div class="showcase_thumbnail"><?php print render($content['field_image']);?></div></h2>
 	</div>
 		<div class="col-md-9 col-sm-9"> <h2><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2> 
-			<?php print render($content['field_banner_caption']); ?>
+			<?php print render($content['field_caption']); ?>
 			
 			<!-- Check to see if URL field is empty and hide -->
 			<?php if (!empty($content['field_url']['0']['#element']['url'])) { ?>
